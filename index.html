@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- my css file -->
+
+  <link rel="stylesheet" type="text/css" href="style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -15,7 +19,37 @@
   </style>
 </head>
 <body>
-  Victor Crest
+  <header>
+    <h1 id="title">PROFILE CARD COMPONENT</h1>
+  </header>
+
+  <main id="mainContent">
+    <div class="card">
+      <div class="textureSection">
+        <img src="images/bg-pattern-card.svg" alt="blue texture looking like sun reflection on water in a pool">
+      </div>
+      <div class="infoSection">
+        <img src="images/image-victor.jpg" alt="Dark skin male standing in landscape" class="userImage">
+        <h2 class="username">Victor Crest <span class="age">26</span></h2>
+        <p class="city">London</p>
+      </div>
+      <div class="statsSection">
+        <div>
+          <div class="followersCount">80K</div>
+          <div class="followers">Followers</div>
+        </div>
+        <div>
+          <div class="likesCount">803K</div>
+          <div class="likes">Likes</div>
+        </div>
+        <div>
+          <div class="photosCount">1.4K</div>
+          <div class="photos">Photos</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Victor Crest
   26
   London
 
@@ -26,10 +60,10 @@
   Likes
 
   1.4K
-  Photos
-  <div class="attribution">
+  Photos -->
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
